@@ -21,6 +21,7 @@ $$\hat{y} = \psi_{\theta}(\hat{s}_f)$$
 The model is trained using a weighted multi-task objective:
 
 **Total Loss:**
+
 $$\mathcal{L} = \beta \cdot \mathcal{L}_{KL} + \mathcal{L}_{MSE} + \mathcal{L}_{CrossEntropy}$$
 
 * **Reconstruction Loss ($\mathcal{L}_{MSE}$):** $mse(\hat{x}_f, x_f)$

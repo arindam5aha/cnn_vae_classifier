@@ -34,6 +34,6 @@ $$y' = \psi_{\alpha}(s'_f)$$
 
 $$\mathcal{L}(s_f) = mse(s'_{f, \mu}, \hat{s}_{f, \mu}) + \beta_{\tau} D_{KL}(\tau_{\alpha}(s'_f|x_s)||\phi_{\theta}(\hat{s}_f|x_f))$$
 
-$$\mathcal{L}(y) = cross\_entropy(y', y)$$
+$$\mathcal{L}(y) = crossentropy(y', y)$$
 
 $$\mathcal{L}_{Prediction} = \mathcal{L}(y) + \mathcal{L}(s_f)$$
